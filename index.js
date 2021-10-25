@@ -10,6 +10,6 @@ app.get("/", (req, res) => {
   res.send("Welcome to my footbal news API");
 });
 
-app.use("/article", articleRoute);
+app.use("/articles", articleRoute);
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
